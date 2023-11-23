@@ -11,3 +11,10 @@ BONUS:
 Crea un container nel DOM , aggiungendo (attraverso la funzione `appendChild()` oppure con la classica concatenazione vista fin'ora) un elemento html con il numero o la stringa corretta da mostrare.
 
 PROBLEMA
+1 - mostrare in console numeri da 1 a 100
+    1.1 - creare ciclo for dichiarando variabile di valore 1 che si ripete fino a 100(compreso) e per ogni ciclo aumenta di 1;
+    1.2 -  mostrare in cnsole tramite console.log
+2 - condizionare la visualizzazione dei multipli di 3, 5 e 3 && 5, con i seguenti valori : fizz, buzz, fizzbuzz
+    2.1 - SE numero multiplo di 3 && 5 ALLORA mostra 'fizzbuzz'
+    2.2 - ALTRIMENTI SE numero multiplo di 3 ALLORA mostra 'fizz'
+    2.3 - ALTRIMENTI SE numero multiplo di 5 ALLORA mostra 'buzz'
