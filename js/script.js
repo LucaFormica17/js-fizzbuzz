@@ -15,3 +15,15 @@ for(let i=1; i<101; i++){
         console.log(i);
     }
 }
+
+
+
+//BONUS
+const list = document.querySelector('ul');
+for(i=1; 1<101; i++){
+let li = document.createElement('li'); //createelement crea un elemento html)
+    li.setAttribute('id', `list-item-${i}`);
+    li.innerHTML = `Voce lista ${i}`;
+    list.appendChild(li);
+    console.log(i);
+}
